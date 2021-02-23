@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <title>Imprimer</title>
+</head>
+
+<body>
+  <img src="Men.png" class="avatar">
+  <img src="Men1.png" class="avatar1">
+  <!-- Navigation -->
+  <div class="nav">
+    <ul>
+      <li><a href="accueil.html">ACCUEIL</a></li>
+      <li><a href="recherche.html">RECHERCHE</a></li>
+      <li><a href="imprimer.html">IMPRIMER</a></li>
+    </ul>
+  </div>
+  <div class="div1">
+    <h1>MINISTERE DE L’EDUCATION NATIONALE</h1>
+  </div>
+  <!-- Impression -->
+  <div class="impr">
+    <h3>Pièce justificative</h3>
+    <form>
+      <p>Nom du remettant</p>
+      <input type="text" name="nom" placeholder="entrer votre nom " autocomplete="off">
+      <p>Adresse</p>
+      <input type="text" name="nom" placeholder="entrer votre adresse " autocomplete="off">
+      <div class="cll">
+        <input type="checkbox" id="dem" />
+        <label for="dem">Lettre de demande</label>
+      </div>
+      <div class="cll">
+        <input type="checkbox" id="pho" />
+        <label for="pho">Photocopie CIN</label>
+      </div>
+      <div class="cll">
+        <input type="checkbox" id="bull" />
+        <label for="bull">Bulletin de naissance</label>
+      </div>
+      <input type="submit" name="imprimer" value="Imprimer">
+      <input type="reset" name="annuler" value="Annuler">
+    </form>
+  </div>
+</body>
+
+</html>
